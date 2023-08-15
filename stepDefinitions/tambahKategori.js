@@ -1,7 +1,7 @@
 import { Given, When, Then } from '@cucumber/cucumber';
-import LoginPage from '../POM/loginPage';
-import DashboardPage from '../POM/dashboardPage';
-import KategoriPage from '../POM/kategoriPage';
+import LoginPage from '../Page object/loginPage';
+import DashboardPage from '../Page object/dashboardPage';
+import KategoriPage from '../Page object/kategoriPage';
 
 Given('The user successfully logged in with the correct email {string} and password {string}', async function (email, password) {
     await LoginPage.open()

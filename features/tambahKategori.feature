@@ -1,5 +1,7 @@
+@Tambahkategori
 Feature: Testing the category in kasirAja
 
+    @Test1
     Scenario: The user wants to do positive test
         Given The user successfully logged in with the correct email "jaya45@mail.com" and password "12345"
         Then The user redirects to the dashboard page

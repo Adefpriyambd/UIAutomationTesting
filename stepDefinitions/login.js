@@ -1,9 +1,9 @@
 import { Given, When, Then } from '@cucumber/cucumber';
-import LoginPage from '../POM/loginPage';
-import DashboardPage from '../POM/dashboardPage';
+import LoginPage from '../Page object/loginPage';
+import DashboardPage from '../Page object/dashboardPage';
 
-Given('The user is on the login page', async () => {
-    await LoginPage.open();
+Given('The user is on the login page', async () => { //async untuk apa?
+    await LoginPage.open(); //fungsi await apa?
     await expect(browser).toHaveUrl('https://kasirdemo.belajarqa.com/login');
 
 });

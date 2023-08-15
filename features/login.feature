@@ -1,3 +1,4 @@
+@login
 Feature: Testing the login functionality in kasirAja
 
     Background:
