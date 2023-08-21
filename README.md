@@ -1,5 +1,5 @@
-# Tugas 6 - Cucumber UI Testing
-Tugas ini adalah Tugas UI Testing menggunakan WebdriverIO-Cucumber pada url Kasir Aja
+Cucumber UI Testing
+Testing menggunakan WebdriverIO-Cucumber pada url Kasir Aja
 
 ## How to use this code
 ### Installization
